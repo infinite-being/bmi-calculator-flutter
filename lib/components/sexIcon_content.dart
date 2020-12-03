@@ -1,9 +1,6 @@
 import 'package:flutter/material.dart';
 
-const textStyle = TextStyle(
-  fontSize: 18.0,
-  color: Color(0xFF8D8E98),
-);
+import '../constants.dart';
 
 class SexIconContent extends StatelessWidget {
   SexIconContent({
@@ -27,7 +24,7 @@ class SexIconContent extends StatelessWidget {
         ),
         Text(
           sex,
-          style: textStyle,
+          style: kLabeltextStyle,
           textAlign: TextAlign.center,
         )
       ],
